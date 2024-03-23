@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+
+
+
+{% block head %}
+{{ super() }}
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+{% block content %}
+
+    
+        <h1>Sentiment Analysis</h1>
+        <form action="" method="POST" id="sentiment-form">
+            <label for="text">Enter text:</label><br>
+            <textarea id="text" name="text" rows="5" cols="50"></textarea><br>
+            <input type="submit" value="Analyze">
+        </form>
+        <div id="result"></div>
+        <img id="result-image" src="" alt="Result Image" style="display: none;">
+    
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock %}
