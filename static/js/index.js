@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(response => response.json())
         .then(data => {
-            resultDiv.innerHTML = 'The sentiment of the text is: ' + data.sentiment;
+            resultDiv.innerHTML = 'The rating is: ' + data.sentiment + '/5 stars.';
             resultImage.src = '/static/images/' + data.sentiment + '.jpg';
             resultImage.style.display = 'block';
         })
