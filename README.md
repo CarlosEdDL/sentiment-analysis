@@ -10,7 +10,7 @@ To execute the program, clone the repository to your local machine (git clone ht
 pip install -r requirements.txt 
 
 ## Preview
-These are some images of how the page works. 
+Here are some examples of how the page works. 
 
 
 ![The image is a screenshot of a sentiment analysis tool interface. It features a title “Sentiment Analysis” at the top, an input field with the text “Even though the product was ok, there are a lot of things to improve,” and a button labeled “Analyze.” Below the button, the result shows a rating of 3/5 stars. Below the result, there’s an illustration of an unimpressed robot against a blue sky background.](https://github.com/CarlosEdDL/sentiment-analysis/assets/122643551/1187047d-5d4c-42f3-b889-cc68b30cb4f8)
